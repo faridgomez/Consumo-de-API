@@ -74,3 +74,7 @@ y ya por ultimo el front del app el cujal es ta con VUE kitsune-project\fronted\
 
 ![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/261d13ff578ed1bd9aadf41cefa59183f7439ea1/IMG/listado%20en%20la%20tabla%20web.png)
 
+El uso de la IA acelero el proceso de construccion para el proyecto de una manera muy cuidadoza , la parte que intente implemntar fue en docker para intentar construir las imagenes pero fue imposible 
+
+Gracias por la atencion grandes saludos.
+
