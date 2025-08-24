@@ -32,10 +32,11 @@ CREATE TABLE pokemons (
 );
 
 una vez creada la base de datos y la tabla correspondiente procedemos a ejecutar la etl
-pera poder acceder a la api de pokemon y guardar los datos escigidos en la base de datos
+para poder acceder a la api de pokemon y guardar los datos escigidos en la base de datos
 
 python etl.py //comando para ejecutar el etl hay que tener en cuenta que se deve estar en la carpeta etl 
 
+![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/c7011ad02192ef87847c40cd0e1d962eeafbec0b/IMG/ejecucion%20etl.png)
 
 
 Despues de realizar este paso la base de datos se nos llenara con la siguiente informacion
