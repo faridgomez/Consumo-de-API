@@ -61,7 +61,7 @@ http://127.0.0.1:8000/pokemons/1
 
 http://127.0.0.1:8000/pokemons/search/?keyword=bulbasaur 
 
-![Image_Alt](![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/c7011ad02192ef87847c40cd0e1d962eeafbec0b/IMG/ejecucion%20etl.png)
+![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/261d13ff578ed1bd9aadf41cefa59183f7439ea1/IMG/link%20del%20api%20en%20navegador.png)
 
 
 
@@ -72,5 +72,5 @@ http://127.0.0.1:8000/pokemons/search/?keyword=bulbasaur
 
 y ya por ultimo el front del app el cujal es ta con VUE kitsune-project\fronted\vue-project>npm run dev // ejecucion veu para listar pokemon de la base en la tabla web 
 
-![Image_Alt](![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/c7011ad02192ef87847c40cd0e1d962eeafbec0b/IMG/ejecucion%20etl.png)
+![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/261d13ff578ed1bd9aadf41cefa59183f7439ea1/IMG/listado%20en%20la%20tabla%20web.png)
 
