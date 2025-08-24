@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Servicio para la base de datos MySQL
+  db:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: tu_password_de_mysql
+      MYSQL_DATABASE: pokemondb
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+
+  # Servicio para la API
+  api:
+    build: ./api
+    container_name: fastapi-api
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./api:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    env_file:
+      - ./api/.env # Puedes usar esto para las credenciales
