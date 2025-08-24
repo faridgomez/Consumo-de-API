@@ -41,10 +41,12 @@ python etl.py //comando para ejecutar el etl hay que tener en cuenta que se deve
 
 Despues de realizar este paso la base de datos se nos llenara con la siguiente informacion
 
+![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/e075a816cdf0cdd612b5c375e1fdefdf0997e21c/IMG/BD%20Poblada.png)
 
 
 el siguiente paso es levantar los servios de la api "uvicorn main:app --reload" // comando manualmente para levantar la api dentro de la carpeta api para ejecutar esté script 
 
+![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/e075a816cdf0cdd612b5c375e1fdefdf0997e21c/IMG/Api%20subida.png)
 
 
 
@@ -59,6 +61,8 @@ http://127.0.0.1:8000/pokemons/1
 
 http://127.0.0.1:8000/pokemons/search/?keyword=bulbasaur 
 
+![Image_Alt](![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/c7011ad02192ef87847c40cd0e1d962eeafbec0b/IMG/ejecucion%20etl.png)
+
 
 
 
@@ -67,3 +71,6 @@ http://127.0.0.1:8000/pokemons/search/?keyword=bulbasaur
 
 
 y ya por ultimo el front del app el cujal es ta con VUE kitsune-project\fronted\vue-project>npm run dev // ejecucion veu para listar pokemon de la base en la tabla web 
+
+![Image_Alt](![Image_Alt](https://github.com/faridgomez/Consumo-de-API/blob/c7011ad02192ef87847c40cd0e1d962eeafbec0b/IMG/ejecucion%20etl.png)
+
